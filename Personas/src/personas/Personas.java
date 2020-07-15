@@ -52,6 +52,8 @@ public abstract class Personas {
     }
  
  
-
+ abstract String Especialidad();
+ 
+ abstract double CalcularPago(int horasTrabajadas);
  
 }
