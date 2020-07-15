@@ -9,13 +9,49 @@ package personas;
  *
  * @author Admin
  */
-public class Personas {
+public abstract class Personas {
+ 
+ private String Nombre;
+ private int AñoNacimiento;
+ private String Profesion;
+ private String TipoSangre;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Personas() {
     }
-    
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public int getAñoNacimiento() {
+        return AñoNacimiento;
+    }
+
+    public void setAñoNacimiento(int AñoNacimiento) {
+        this.AñoNacimiento = AñoNacimiento;
+    }
+
+    public String getProfesion() {
+        return Profesion;
+    }
+
+    public void setProfesion(String Profesion) {
+        this.Profesion = Profesion;
+    }
+
+    public String getTipoSangre() {
+        return TipoSangre;
+    }
+
+    public void setTipoSangre(String TipoSangre) {
+        this.TipoSangre = TipoSangre;
+    }
+ 
+ 
+
+ 
 }
