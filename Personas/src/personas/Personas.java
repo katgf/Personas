@@ -56,4 +56,10 @@ public abstract class Personas {
  
  abstract double CalcularPago(int horasTrabajadas);
  
+ 
+    public String calcularEdad(int añoActual){
+            int edad = añoActual-AñoNacimiento;
+            
+            return "Este año lo terminaras con "+edad+ " años de edad";
+        }
 }
